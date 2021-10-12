@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + KR: wght @ 500 & display = swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.main-container{
+    width:100%;
+    min-height: 100vh;
+    background:linear-gradient(3deg, #F3CCBD,#EEBCBB, #E7ACC2, #D6B5D4, #C9BCDA,#B2C9E9);
+}
+.Bts-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/BTS9.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-container{
+    min-height: 40vh;
+    width: 20em;
+    
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-container label{
+    font-size: 1.5em;
+    color:white ;
+}
+.input-container input{
+height: 2em;
+border-radius: 5px;
+border: 0px;
+
+}
+.login-btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: #C9BCDA;
+    color: white;
+    font-size: 1.5em;
+    border: 0px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+}
+.BTS-link{
+    margin-top: 1em;
+  width: 50%;
+  color:#a692c0;  
+  text-align: center;
+}
+.polices p{
+    color: white;
+    font-size: 1em;
+    margin: 0px;
+    text-align: center;
+}
+.sesión{
+    display: none;
+}
+
+.police input{
+    border: solid 1px #a692c0 ;
+}
+.police input:active{
+background-color: #a692c0;
+}
+.back-btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: #9077af;
+    color: white;
+    font-size: 1.5em;
+    border: 0px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.input-container{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:720px)  and (orientation:landscape)
+{
+  .Bts-container{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      background-image: none;
+  }  
+  .logo-container{
+      width: 50%;
+      height: 100vh;
+      background-image: url(img/BTS9.png);
+      background-position: center;
+      background-size:cover;
+
+  }
+  .form-container{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+  .sesión{
+      display: block;
+      color: white;
+      font-size: 2em;
+
+  }
+   .form{
+       width: 50%;
+   }
+
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + KR: wght @ 500 & display = swap');
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+        height: 50px;
+        background: rgba(120, 120, 120, 0.7);
+        top: 0;
+        left:0;
+}
+.main-container{
+    width:100%;
+    min-height: 100vh;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container img{ 
+    align-items: center;
+    display: flex;
+
+    
+}
+.logo-container img{
+    width: 3em;
+}
+.list-menu {
+    background-color: rgba(120, 120, 120, 0.7);
+    position: fixed;
+    top: 4em;
+    right: 0px;
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    border-radius: 10px 0px 0px 0px;
+    transform: translateX(100%);
+   transition: all 1.9s;
+   z-index: 9;
+}
+.list-menu li{
+    list-style: none;
+    margin-top: 3em
+}
+.list-menu li a{
+    color: white;
+}
+.active-menu{
+    transform: translateX(0%);
+}
+@media screen and (min-width:720px)  and (orientation:landscape)
+{
+    #menu-btn{
+        display: none;
+
+    }
+    
+    .list-menu{
+        transform: translateX(0%);
+        position: static;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        background-color: transparent;
+        
+    }
+    .list-menu li{
+        margin-top: 0em;
+    }
+    .list-menu li a img{
+        width: 4.5em;
+    }
+    .main-menu{
+        width: 25%;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "https://fonts.googleapis.com/css2? family = Karla & display = swap" rel = "hoja de estilo ">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="icon" href="img/icons8-bts-logo (1).svg">
+    <title>Reproductor</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="menu-container">
+            <div class="logo-container">
+                <img  src="img/Grupo 7.svg" alt="BTS">
+            </div>
+            <nav class="main-menu" >
+                <img id="menu-btn" src="img/menu.svg" alt="menu">
+                <ul id="menu-list" class="list-menu">
+                    <li><a href="#">
+                        <img src="img/jimin..n.svg">
+                    </a></li>
+                    <li><a href="#">Perfil de usuario</a></li>
+                    <li><a href="#">Configuración</a></li>
+                </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+        <di class="search-input">Buscar :
+            <input type="text" id="search-input"/>
+        </di>
+        <div class="lits-container" id="list-container"></div>
+        <div class="playing-card">
+            <div class="cover-card">
+                <img src="img/MAWZ.png" alt="" id="cover-card-img"/>
+            </div>
+            <div id="title-card"></div>
+            <input type="range" id="progress-bar" class="progress-bar"/>
+
+            <div class="controls-container">
+                <button id="volume-up"><img src="img/Grupo 66.png"></button>
+                <button id="prev-btn"><img src="img/Grupo 72.png" ></button>
+                <button id="play-btn"><img src="img/Grupo 56.png" ></button>
+                <button id="next-btn"><img src="img/Grupo 75.png" ></button>
+                <button id="volume-down"><img src="img/Grupo 68.png"></button>
+
+            </div>
+        </div>
+    </div>
+    
+    <audio src="audio/A Tus Pies.mp3" id="audio"></audio>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.243" height="25.169" viewBox="0 0 24.243 25.169">
+  <g id="Grupo_28" data-name="Grupo 28" transform="translate(-147 -832)">
+    <g id="Elipse_9" data-name="Elipse 9" transform="translate(147 832)" fill="none" stroke="#000" stroke-width="1">
+      <ellipse cx="9" cy="8.5" rx="9" ry="8.5" stroke="none"/>
+      <ellipse cx="9" cy="8.5" rx="8.5" ry="8" fill="none"/>
+    </g>
+    <path id="Trazado_13" data-name="Trazado 13" d="M0,0,1.125,1.25,9,10" transform="translate(161.5 846.5)" fill="none" stroke="#000" stroke-width="2"/>
+    <path id="Trazado_12" data-name="Trazado 12" d="M-.625-.342s.1-.228,0,.837.636,1.593,1,2.511A16.907,16.907,0,0,0,2,6" transform="translate(163.5 845.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Trazado_11" data-name="Trazado 11" d="M.3-.831,2.035-.5,3.1.117l3.51,2.591L7,3" transform="translate(159.501 848.5)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
